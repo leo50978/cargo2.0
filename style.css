@@ -1,0 +1,512 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+/* navbar*/
+.navbar{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+}
+
+.panier{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panier img{
+    height: 80%;
+    border-radius: 20%;
+}
+
+.panier img:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    width: 50%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.contact{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact img{
+    height: 80%;
+    border-radius: 20%;
+}
+.contact img:hover{
+    transform: scale(1.2);
+}
+/*prodt*/
+ 
+.conteneur{
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 12%;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.prodt{
+    width: 320%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    background-image: url('color.jpg');
+    white-space: nowrap;
+}
+
+.img1{
+    width: 80%;
+    height: 100%;
+    margin: 0 0.2% 0 0;
+}
+.img2{
+    width: 80%;
+    height: 100%;
+    margin: 0 0.2% 0 0.1%;
+}
+.img3{
+    width: 80%;
+    height: 100%;
+    margin: 0 0.2% 0 0.1%;
+}
+.img4{
+    width: 80%;
+    height: 100%;
+    margin: 0 0.2% 0 0.1%;
+}
+
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.img3 img{
+    width: 100%;
+    height: 100%;
+}
+.img4 img{
+    width: 100%;
+    height: 100%;
+}
+
+/*prix*/
+.cont-prix{
+    width: 100%;
+    height: 13%;
+  
+    position: absolute;
+    top: 80%;
+    border-top: 1px solid rgb(186, 195, 238);
+    display: flex;
+}
+.prix{
+    width: 70%;
+    height: 100%;
+}
+.prix img{
+    height: 100%;
+    width: 100%;
+}
+.prix img:hover{
+    transform: scale(0.99);
+}
+.button1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #1357af;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.button1 p{
+    color: rgb(117, 255, 5);
+    font-size: 4vh;
+    animation: shake 10s infinite;
+}
+.button1:hover {
+    animation: a 0.5s 1 linear;
+  }
+  /*livraison*/
+  .livraison{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 100%;
+  }
+  .imglivraison{
+    width: 100%;
+    height: 90%;
+    background-image: url('color.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .imglivraison img{
+    width: 100%;
+    height: 100%;
+  }
+  .plivraison{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(89, 20, 250);
+    font-size: 5vh;
+  }
+/*description*/
+
+.description{
+    width: 100%;
+    height: 83vh;
+    position: absolute;
+    top: 150%;
+    padding-left: 2%;
+}
+.descriptiontxt{
+    width: 80%;
+    height: 100%;
+}
+
+.descriptiontxt h1{
+    font-size: 5vh;
+    border-bottom: 1px solid blue;
+    font-family: sans-serif;
+}
+.descriptiontxt p{
+    font-size: 3vh;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+}
+/*button 2*/
+
+.button2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4%;
+}
+/*map*/
+.contmap{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    top: 250%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    width: 100%;
+    height: 10%;
+    padding-left: 3%;
+}
+.map{
+    width: 90%;
+    height: 100%;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(93, 179, 206);
+    position: absolute;
+    top: 300%;
+    display: flex;
+    
+}
+
+.rimg1{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rimg1 img{
+  width: 50%;
+  height: 50%;
+}
+.rimg2{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rimg2 img{
+  width: 50%;
+  height: 50%;
+}
+.rimg3{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rimg3 img{
+  width: 50%;
+  height: 50%;
+}
+.rimg4{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rimg4 img{
+  width: 50%;
+  height: 50%;
+}
+.reseau img{
+    width: 7%;
+    margin :5%;
+}
+.reseau img:hover{
+  transform: scale(1.2);
+}
+ 
+  /*bouton*/
+  /*bouton*/
+  /* Styles pour la fenêtre modale */
+.fenetre-modale {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+.contenu-fenetre-modale {
+    background-color: #fefefe;
+    padding: 2%;
+    height: 100vh;
+    margin-top: 10vh;
+
+  }
+.fenetreh1{
+    width: 100%;
+    height: 7vh;
+    font-size: 3vh;
+}
+.fenetrep{
+    width: 100%;
+    height: 70vh;
+    font-size: 2.5vh;
+}
+.fermer {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  /*fenetre modale*/
+.contenu-fenetre-modale h1{
+    border-bottom: 2px solid blue;
+}
+.buttonx{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .buttonx button {
+    width: 80vw;
+    height: 3vh;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    font-size: 100%;
+    animation: shake 4s infinite;
+    }
+
+  button {
+    width: 97%;
+    font-size: 3vh;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    }
+  
+  button:hover {
+    animation: a 0.5s 1 linear;
+  }
+
+  
+  @keyframes a {
+    0% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    25% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    50% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    75% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+    
+/*animation*/
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-3px, 0) rotate(3deg); }
+    50% { transform: translate(3px, 0) rotate(-3deg); }
+    75% { transform: translate(-3px, 0) rotate(3deg); }
+    100% { transform: translate(0, 0); }
+}
+
+@media screen and (min-width: 500px){
+  .body{
+    display: flex;
+    justify-content: center;
+  }
+  .navbar{
+    width: 69.8%;
+  }
+  .generale{
+    width: 70%;
+    height: 240vh;
+    margin-left: 15%;
+  }
+  .conteneur{
+    position: relative;
+    top: 5%;
+  }
+  .cont-prix{
+    position: relative;
+    top: 4%;
+    height:7% ;
+
+  }
+  .description{
+    position: relative;
+    top: 10%;
+  }
+  .livraison{
+    position: relative;
+    top:10%;
+
+  }
+  .button2{
+    position: relative;
+    top: -1%;
+  }  
+  .contmap{
+    position: relative;
+    top: 15%;
+  }
+  .footer{
+    position: relative;
+    top: 19%;
+  }  
+  .contenu-fenetre-modale{
+    width: 80%;
+    margin-left: 8%;
+    border-radius: 5%;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+        width: 49.8%;
+    }
+    .generale{
+    width: 50%;
+    height: 240vh;
+    margin-left: 0;
+  }
+  .conteneur{
+    position: relative;
+    top: 5%;
+  }
+  .cont-prix{
+    position: relative;
+    top: 4%;
+    height:7% ;
+
+  }
+  .description{
+    position: relative;
+    top: 10%;
+  }
+  .livraison{
+    position: relative;
+    top:10%;
+  }
+  .button2{
+    position: relative;
+    top: -1%;
+  }  
+  .contmap{
+    position: relative;
+    top: 15%;
+  }
+  .footer{
+    position: relative;
+    top: 19%;
+  }  
+}
